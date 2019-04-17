@@ -1,0 +1,116 @@
+/* orange: #e67e22 */
+/* ----------------------------- */
+/* BASIC SETUP */
+/* ----------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: #9f6060;
+	color: #555;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+.row {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+section {
+    margin: 10% 10%;
+    background-color: #fff;
+	padding: 80px 0;
+}
+
+.box {
+	padding: 1%;
+}
+
+/* --- HEADINGS --- */
+h1 {
+	margin: 0;
+	margin-bottom: 20px;
+	color: #939393;
+	font-size: 240%;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+    text-align: center;
+}
+
+
+/* ----------------------------- */
+/* FORM */
+/* ----------------------------- */
+
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+    color: #939393;
+}
+
+input[type=text],
+input[type=email],
+input[type=date],
+select {
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+input[type=text],
+input[type=email]{
+    width: 80%;
+}
+input[type=text]{
+    text-transform: capitalize;
+}
+
+.col1 {
+    padding-top: 8px;
+    padding-left: 20px;
+}
+
+.valid ,
+.invalid{
+    display: inline-block;
+    margin-left: 3%;
+    height: 90%;
+}
+.valid {
+    color: #5af535;
+}
+
+.invalid{
+    color: rgba(248, 12, 31, 0.92);
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+*:focus{outline: none}
+
+
+/* ----- BUTTONS ----- */
+.btn {
+    margin: 0 30%;
+    width: 40%;
+    height: 30px;
+    display: inline-block;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #9f6060;
+}

@@ -1,0 +1,160 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    html {
+        font-weight: 300;
+        font-size: 90%;
+        text-rendering: optimizeLegibility;
+    }
+    h1 {
+        margin-bottom: 18px;
+        font-size: 200%;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    
+    .contact-form{
+        width: 70%;
+    }
+    .col1 {
+        padding-top: 8px;
+        padding-left: 18px;
+    }
+    
+    input[type=text],
+    input[type=email],
+    input[type=date],
+    select {
+        padding: 6px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+
+    input[type=text],
+    input[type=email]{
+        width: 80%;
+    }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    html {
+        font-weight: 250;
+        font-size: 80%;
+        text-rendering: optimizeLegibility;
+    }
+    h1 {
+        margin-bottom: 15px;
+        font-size: 150%;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .contact-form{
+        width: 75%;
+    }
+    
+    .col1 {
+        padding-top: 8px;
+        padding-left: 15px;
+    }
+    
+    input[type=text],
+    input[type=email],
+    input[type=date],
+    select {
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+
+    input[type=text],
+    input[type=email]{
+        width: 70%;
+    }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    html {
+        font-weight: 200;
+        font-size: 75%;
+        text-rendering: optimizeLegibility;
+    }
+    h1 {
+        margin-bottom: 12px;
+        font-size: 125%;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .contact-form{
+        width: 80%;
+    }
+    
+    .col1 {
+        padding-top: 8px;
+        padding-left: 13px;
+    }
+        
+    input[type=text],
+    input[type=email],
+    input[type=date],
+    select {
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+
+    input[type=text],
+    input[type=email]{
+        width: 60%;
+    }
+    
+    .btn {
+        margin: 0 20%;
+        width: 60%;
+        height: 25px;
+    }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    html {
+        font-weight: 175;
+        font-size: 70%;
+        text-rendering: optimizeLegibility;
+    }
+    h1 {
+        margin-bottom: 5px;
+        font-size: 125%;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .contact-form{
+        width: 85%;
+    }
+            
+    input[type=text],
+    input[type=email],
+    input[type=date],
+    select {
+        padding: 1px;
+        border-radius: 2px;
+        border: 1px solid #ccc;
+        
+        width: 70%;
+        margin-left: 15%;
+        height: 20px;
+    }
+    .col1 {
+        text-align: center;
+    }
+    .btn {
+        margin: 3% 15% 0 15%;
+        width: 70%;
+        height: 20px;
+    }
+        
+}

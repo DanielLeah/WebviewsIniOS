@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9900D8312267173B00F71BB2 /* Project Assesment in Resources */ = {isa = PBXBuildFile; fileRef = 9900D8302267173B00F71BB2 /* Project Assesment */; };
 		99F4D1B022647FA400DD8EB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F4D1AF22647FA400DD8EB7 /* AppDelegate.swift */; };
 		99F4D1B222647FA400DD8EB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F4D1B122647FA400DD8EB7 /* ViewController.swift */; };
 		99F4D1B522647FA400DD8EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F4D1B322647FA400DD8EB7 /* Main.storyboard */; };
 		99F4D1B722647FA600DD8EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F4D1B622647FA600DD8EB7 /* Assets.xcassets */; };
 		99F4D1BA22647FA600DD8EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F4D1B822647FA600DD8EB7 /* LaunchScreen.storyboard */; };
+		99F4D1E42264882400DD8EB7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F4D1E32264882400DD8EB7 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9900D8302267173B00F71BB2 /* Project Assesment */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Project Assesment"; sourceTree = "<group>"; };
 		99F4D1AC22647FA400DD8EB7 /* WKWebExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F4D1AF22647FA400DD8EB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99F4D1B122647FA400DD8EB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		99F4D1B622647FA600DD8EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99F4D1B922647FA600DD8EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99F4D1BB22647FA600DD8EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99F4D1E32264882400DD8EB7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F4D1E42264882400DD8EB7 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				99F4D1AE22647FA400DD8EB7 /* WKWebExample */,
 				99F4D1AD22647FA400DD8EB7 /* Products */,
+				99F4D1E22264882400DD8EB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +60,7 @@
 		99F4D1AE22647FA400DD8EB7 /* WKWebExample */ = {
 			isa = PBXGroup;
 			children = (
+				9900D8302267173B00F71BB2 /* Project Assesment */,
 				99F4D1AF22647FA400DD8EB7 /* AppDelegate.swift */,
 				99F4D1B122647FA400DD8EB7 /* ViewController.swift */,
 				99F4D1B322647FA400DD8EB7 /* Main.storyboard */,
@@ -62,6 +69,14 @@
 				99F4D1BB22647FA600DD8EB7 /* Info.plist */,
 			);
 			path = WKWebExample;
+			sourceTree = "<group>";
+		};
+		99F4D1E22264882400DD8EB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99F4D1E32264882400DD8EB7 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +140,7 @@
 				99F4D1BA22647FA600DD8EB7 /* LaunchScreen.storyboard in Resources */,
 				99F4D1B722647FA600DD8EB7 /* Assets.xcassets in Resources */,
 				99F4D1B522647FA400DD8EB7 /* Main.storyboard in Resources */,
+				9900D8312267173B00F71BB2 /* Project Assesment in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DH5S35BHEZ;
 				INFOPLIST_FILE = WKWebExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DH5S35BHEZ;
 				INFOPLIST_FILE = WKWebExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

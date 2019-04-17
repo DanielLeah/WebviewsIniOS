@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+        <title> REGIST ME</title>
+
+    </head>
+    <body>
+        <section class="section-form">
+            <div>
+                <h1>Registration form</h1>
+            </div>
+            <div class="row">
+                <form name="myform" id="myform" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3 col1">
+                            <label for="firstname">First name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="firstname" id="firstname" placeholder="Your first name" required><i class="icon ion-ios-checkmark-circle-outline  firstNameVal"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3 col1">
+                            <label for="lastname">Last name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="lastname" id="lastname" placeholder="Your last name" required><i class="icon ion-ios-checkmark-circle-outline lastNameVal"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3 col1">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3" >
+                            <input type="email" name="email" id="email" placeholder="Your email" required><i class="icon ion-ios-checkmark-circle-outline emailVal"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3 col1">
+                            <label for="gender">Gender</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="gender" id="gender">
+                                <option value="choose" selected>Please Choose</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select><i class="icon ion-ios-checkmark-circle-outline genderVal"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3 col1">
+                            <label for="bday">Date of birth</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="date" name="bday" min="1910-01-01" max="2018-01-01" id="bday"><i class="icon ion-ios-checkmark-circle-outline"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-2-of-2">
+                            <button type="button" class="btn">Submit your registration</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <p id="inputs">Nothing</p>
+        <script src="resources/js/script.js"></script>
+    </body>
+
+</html>
